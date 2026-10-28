@@ -30,7 +30,7 @@ jobs:
       - name: Extract project
         run: |
           unzip Nothing_Phone_2a_Translucent_Mono_All_Icons.zip
-          cd Nothing_Translucent_Light_IconPack
+          cd .
           gradle assembleDebug
 
       - name: Upload APK
